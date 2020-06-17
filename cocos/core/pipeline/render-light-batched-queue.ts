@@ -14,10 +14,10 @@ import { Light } from '../renderer';
 import { LightType } from '../renderer/scene/light';
 
 const myForward_Light_Sphere_Patches = [
-    { name: 'CC_FOWARD_ADD', value: true },
+    { name: 'CC_FORWARD_ADD', value: true },
 ];
 const myForward_Light_Spot_Patches = [
-    { name: 'CC_FOWARD_ADD', value: true },
+    { name: 'CC_FORWARD_ADD', value: true },
     { name: 'CC_SPOTLIGHT', value: true },
 ];
 
