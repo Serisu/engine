@@ -604,6 +604,7 @@ function _checkListeners (node, events) {
                 }
             }
         }
+        i = 0;
         if (node._capturingListeners) {
             for (; i < events.length; ++i) {
                 if (node._capturingListeners.hasEventListener(events[i])) {
